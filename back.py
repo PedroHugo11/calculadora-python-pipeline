@@ -11,5 +11,5 @@ class Multiplicacao():
         return valor1 * valor2
 
 class Divisao():
-    def Divisao(valor1, valor2):
+    def dividir(valor1, valor2):
         return valor1 / valor2
