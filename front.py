@@ -1,6 +1,7 @@
 from back import Subtracao
 from back import Soma
 from back import Multiplicacao
+from back import Divisao
 
 opcao=1
 
@@ -8,7 +9,8 @@ while opcao != 0:
     print("0. Sair")
     print("1. Somar")
     print("2. Subtração")
-    print("3. Multiplicacao")
+    print("3. Multiplição")
+    print("4. Divisão")
 
 
     opcao = int(input("Opção: "))
@@ -26,3 +28,7 @@ while opcao != 0:
     if (opcao == 3):
         result = Multiplicacao.multiplicar(valor1, valor2)
         print(valor1 , " * " , valor2 , " = " , result, "\n")
+    
+    if (opcao == 4):
+        result = Divisao.dividir(valor1, valor2)
+        print(valor1 , " / " , valor2 , " = " , result, "\n")
