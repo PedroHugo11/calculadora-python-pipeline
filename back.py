@@ -9,3 +9,7 @@ class Soma():
 class Multiplicacao():
     def multiplicar(valor1, valor2):
         return valor1 * valor2
+
+class Divisao():
+    def Divisao(valor1, valor2):
+        return valor1 / valor2
